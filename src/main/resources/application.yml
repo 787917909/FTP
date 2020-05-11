@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: ftpUtil
+server:
+  port: 8001
+
+# 配置ftp服务器信息
+ftp:
+  # ftp服务器的IP地址
+  url: 10.132.213.88
+  # 默认端口是21
+  port: 21
+  username: andrew
+  password: 123456
+  # ftp服务器存放文件的路径
+  remotePath: /你好/
+  # 本地需要上传的文件的路径
+  localDir: /home/lwq/临时存储区/
+  # ftp上文件下载到本地存放的路径
+  downDir: /home/lwq/临时存储区/测试下载/俄罗斯秘密/特肯啊/玛尔扎克/
+
+## 配置ftp服务器信息
+#ftp:
+#   # ftp服务器的IP地址
+#   url: 10.132.212.188
+#   # 默认端口是21
+#   port: 21
+#   username: share
+#   password: Share*963.
+#   # ftp服务器存放文件的路径
+#   remotePath: /W临时中转区/ZPF_Backup/
+#    # 本地需要上传的文件的路径
+#   localDir: /home/lwq/临时存储区/
+#   # ftp上文件下载到本地存放的路径
+#   downDir: /home/lwq/临时存储区/测试下载/
